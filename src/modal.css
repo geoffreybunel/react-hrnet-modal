@@ -1,4 +1,4 @@
-.overlay {
+.hrnet-modal-overlay {
     position: fixed;
     top: 0;
     right: 0;
@@ -15,7 +15,7 @@
     margin: auto;
   }
   
-  .modal-content {
+  .hrnet-modal-content {
     vertical-align: middle;
     position: relative;
     z-index: 2;
@@ -31,7 +31,7 @@
     top: 50%
   }
   
-  .modal-close {
+  .hrnet-modal-close {
     position: absolute;
     top: -12.5px;
     right: -12.5px;
@@ -40,10 +40,7 @@
     height: 30px;
     border: none;
     border-radius: 50px;
-    text-indent: -9999px;
     cursor: pointer;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image: url(src/assets/modal-close.png);
+    background-color: #000;
+    color: white;
   }
