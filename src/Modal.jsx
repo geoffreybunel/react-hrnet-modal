@@ -1,4 +1,5 @@
 import React, { useEffect, useId } from "react";
+import '../src/styles/index.css';
 
 function Modal({ isOpen, onClose, children, title, closeOnOverlayClick = true, showCloseButton = true, closeOnEsc = true }) {
     const titleId = useId();
