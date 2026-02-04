@@ -1,17 +1,26 @@
 {
   "name": "react-hrnet-modal",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "main": "./dist/react-hrnet-modal.umd.js",
+  "module": "./dist/react-hrnet-modal.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-hrnet-modal.es.js",
+      "require": "./dist/react-hrnet-modal.umd.js"
+    }
+  },
+  "files": ["dist", "README.md"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
