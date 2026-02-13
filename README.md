@@ -17,15 +17,9 @@ The modal is designed to be simple, predictable, accessible, and easy to integra
 
 ## 📦 Installation
 
-This package is published on GitHub Packages.
+This package is published on npmjs.com.
 
-### 1. Configure npm (once per project)
-Create or edit a .npmrc file at the root of your project:
-```ini
-@geoffreybunel:registry=https://npm.pkg.github.com
-```
-
-### 2. Install the package
+### Install the package
 ```ini
 npm install @geoffreybunel/react-hrnet-modal
 ```
