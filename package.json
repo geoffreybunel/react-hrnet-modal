@@ -1,10 +1,7 @@
 {
   "name": "@geoffreybunel/react-hrnet-modal",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "private": false,
-  "version": "0.1.0",
+  "version": "0.4.0",
   "type": "module",
   "license": "MIT",
   "main": "./dist/react-hrnet-modal.umd.js",
@@ -29,7 +26,8 @@
     "build": "vite build",
     "postbuild": "node scripts/copy-css.mjs",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react": ">=18",
