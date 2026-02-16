@@ -4,6 +4,14 @@ A lightweight and controlled React modal component, created as part of the HRNet
 This component replaces a legacy jQuery modal plugin with a fully React-based, reusable solution.
 The modal is designed to be simple, predictable, accessible, and easy to integrate into any React application.
 
+## ✅ Prerequisites
+
+Before installing this package, make sure your environment meets the following requirements:
+
+- Node.js >= 18
+- React >= 18
+- React DOM >= 18
+
 ## ✨ Features
 
 - Controlled component (isOpen / onClose)
